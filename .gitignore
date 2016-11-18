@@ -1,0 +1,6 @@
+#ignore folder
+fonts/
+img/
+
+# ignore fale
+docs/*.txt

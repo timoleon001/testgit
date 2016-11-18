@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../fonts/OswaldRegular.eot');
+    src: url('../fonts/OswaldRegular.eot') format('embedded-opentype'),
+         url('../fonts/OswaldRegular.woff2') format('woff2'),
+         url('../fonts/OswaldRegular.woff') format('woff'),
+         url('../fonts/OswaldRegular.ttf') format('truetype'),
+         url('../fonts/OswaldRegular.svg#OswaldRegular') format('svg');
+}
+@font-face {
+    font-family: 'OswaldLight';
+    src: url('../fonts/OswaldLight.eot');
+    src: url('../fonts/OswaldLight.eot') format('embedded-opentype'),
+         url('../fonts/OswaldLight.woff2') format('woff2'),
+         url('../fonts/OswaldLight.woff') format('woff'),
+         url('../fonts/OswaldLight.ttf') format('truetype'),
+         url('../fonts/OswaldLight.svg#OswaldLight') format('svg');
+}
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('../fonts/OswaldBold.eot');
+    src: url('../fonts/OswaldBold.eot') format('embedded-opentype'),
+         url('../fonts/OswaldBold.woff2') format('woff2'),
+         url('../fonts/OswaldBold.woff') format('woff'),
+         url('../fonts/OswaldBold.ttf') format('truetype'),
+         url('../fonts/OswaldBold.svg#OswaldBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSansRegular.eot');
+    src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansRegular.woff2') format('woff2'),
+         url('../fonts/OpenSansRegular.woff') format('woff'),
+         url('../fonts/OpenSansRegular.ttf') format('truetype'),
+         url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSansLight.eot');
+    src: url('../fonts/OpenSansLight.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansLight.woff2') format('woff2'),
+         url('../fonts/OpenSansLight.woff') format('woff'),
+         url('../fonts/OpenSansLight.ttf') format('truetype'),
+         url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('../fonts/OpenSansSemibold.eot');
+    src: url('../fonts/OpenSansSemibold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansSemibold.woff2') format('woff2'),
+         url('../fonts/OpenSansSemibold.woff') format('woff'),
+         url('../fonts/OpenSansSemibold.ttf') format('truetype'),
+         url('../fonts/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+}

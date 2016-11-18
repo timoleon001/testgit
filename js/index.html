@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<head>
+		<meta charset="utf-8" />
+        <!-- <meta name="viewport" content="width=device-width" /> -->
+        <meta name="description" lang="ru" content="" />
+        <meta name="keywords" lang="ru" content="" />
+		<title>Заголов</title>	
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>			
+		<link media="all" rel="stylesheet" href="fancybox/source/jquery.fancybox.css" />
+		<link media="all" rel="stylesheet" href="css/bootstrap.css" />
+		<link media="all" rel="stylesheet" href="css/style.css" />
+		<link media="all" rel="stylesheet" href="css/media.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>	
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>	
+		<!--[if lt IE 9]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<section class="box1">	
+		<button class="but-modal">Кнопка</button>		
+		</section><!-- box1 -->
+		<section class="box2">	
+		</section><!-- box2 -->
+		<section class="box3">	
+		</section><!-- box3 -->
+		<section class="box4">			
+		</section><!-- box4 -->
+		<section class="box5">			
+		</section><!-- box5 -->
+		<section class="box6">			
+		</section><!-- box6 -->
+		<section class="box7">			
+		</section><!-- box7 -->
+	
+		<!-- Формы заявок -->
+		<div class="modal modal-01">
+			<span class="icon-th cancel button"></span>
+			<div class="caption-white">
+				<p>Заказать обратный звонок</p>
+				<form class="form-1" method="get">										
+					<input type="hidden" name="sendpage" value="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>">
+					<input type="hidden" name="subjecte" value="Скрытое поле">	
+					<div class="row-width50">				
+						<div class="width50">
+							<input type="text" placeholder="Ваше имя" name="name">
+						</div>				
+						<div class="width50">
+							<input class="phone_numb" type="text" placeholder="Ваш телефон *" name="phone">
+						</div>
+					</div>
+					<input type="text" placeholder="Ваш E-mail" name="email">
+					<textarea class="input textarea" name="message" cols="20" rows="5" placeholder="Текст сообщения"></textarea>
+					<button class="button2"><span>Отправить заявку</span></button>
+				</form>
+			</div>
+		</div>
+		<div class="modal modal-thank-you">
+			<span class="icon-th cancel button"></span>
+			<div class="wraper-thank-you">
+				<span class="thanks">
+					Благодарим за обращение в нашу компанию,<br>наш менеджер свяжется с Вами в ближайшее время
+				</span>
+			</div>
+		</div>	
+	</body>
+</html>

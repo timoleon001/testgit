@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" />
+        <meta name="description" lang="ru" content="" />
+        <meta name="keywords" lang="ru" content="" />
+		<title>Заготовка</title>				
+		<link media="all" rel="stylesheet" href="css/fonts.css" />
+		<link media="all" rel="stylesheet" href="css/jquery.fancybox.css" />
+		<link media="all" rel="stylesheet" href="css/bootstrap.css" />
+<!-- 		<link media="all" rel="stylesheet" href="css/bootstrap-theme.min.css" /> -->
+		<link media="all" rel="stylesheet" href="css/all.css" />
+		<script src="js/jquery-1.11.1.min.js"></script>	
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>	
+		<!--[if lt IE 9]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+<div class="container">
+	<nav class="navbar navbar-default" role="navigation">
+  
+    <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывание -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Лого</a>
+    </div>
+ 
+    <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
+    <div class="collapse navbar-collapse main-menu-hold" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Ссылка 1</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Выпадающий список <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Ссылка 2</a></li>
+            <li><a href="#">Ссылка 3</a></li>
+          </ul>
+        </li>
+      </ul>
+        <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+
+</nav>
+
+
+<div class="bs-example bs-example-tabs">
+  <ul id="myTab" class="nav nav-tabs">
+    <li class="active"><a href="#home" data-toggle="tab">Главная</a></li>
+    <li class=""><a href="#profile" data-toggle="tab">Профиль</a></li>
+    <li class=""><a href="#profile2" data-toggle="tab">Профиль 2</a></li>
+  </ul>
+  <div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade  active in" id="home">
+    <p>Здесь произвольный текст. Главная</p>
+    </div>
+    <div class="tab-pane fade" id="profile">
+    <p>Здесь произвольный текст. Профиль</p>
+    </div>
+    <div class="tab-pane fade" id="profile2">
+    <p>Здесь произвольный текст. Профиль 2</p>
+    </div>
+  </div>
+</div>
+
+<div id="demo" class="collapse">123456</div>
+<div id="demo2" class="collapse">78910</div>
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Пункт Группы Свертывания #1
+              </a>
+            </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                Пункт Группы Свертывания #2
+              </a>
+            </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Пункт Группы Свертывания #3
+              </a>
+            </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div  id="accordion1">
+  <div class="panel">
+    <a data-toggle="collapse" data-parent="#accordion1" href="#acc1">Пункт Группы Свертывания #1</a>
+    <div id="acc1" class="collapse"> 
+      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <a data-toggle="collapse" data-parent="#accordion1" href="#acc2">Пункт Группы Свертывания #2</a>
+    <div id="acc2" class="collapse"> 
+      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+    </div>
+  </div>
+</div>
+
+
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo2">
+  simple collapsible
+</button>
+
+<ul class="nav navbar-nav">
+        <li class="active"><a href="#">Ссылка 1</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Выпадающий список <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Ссылка 2</a></li>
+            <li><a href="#">Ссылка 3</a></li>
+          </ul>
+        </li>
+      </ul>
+
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Модальное окно</button>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-1">Модальное окно</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Название модали</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ******************Форма обратной связи******************* -->
+<div class="modal fade" id="modal-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">      
+      <form class="form-1" method="get" novalidate="novalidate">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <input type="hidden" name="sendpage" value=" - Скрытое поле">
+        <div class="row">
+        <div class="col-md-6 col-xs-6 col-name">
+          <input class="input" type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="col-md-6 col-xs-6 col-email">
+          <input class="input" type="text" name="email" placeholder="E-mail">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <input class="input" type="text" name="phone" placeholder="Телефон">
+        </div>
+
+          <div class="col-md-6 col-xs-12">
+            <input class="input" type="text" name="subjecte" placeholder="Тема">
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <textarea class="input textarea" name="message" cols="20" rows="5" placeholder="Сообщение"></textarea>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12">
+          <button class="button2"><span>Отправить</span></button>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+  </div><!-- /.container-fluid -->
+
+  <script>
+
+  </script>>
+
+	</body>
+</html>
